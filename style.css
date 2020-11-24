@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;    
+}
+
+.container {
+    height:960px;
+    width:960px;
+    margin:auto;
+    border: 5px solid grey;
+    display:grid;
+    grid-template-rows: repeat(16, auto);
+    grid-template-columns: repeat(16, auto);
+}
+
+.box {
+    background-color:black;
+}
+
+.highlight{
+    background-color: white;
+}
